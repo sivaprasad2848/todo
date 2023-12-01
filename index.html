@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDOApp</title>
+    <link rel="stylesheet" href="../bst/css/bootstrap.min.css"/>
+</head>
+<body>
+    <!--Header-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center text-primary my-5">ToDo Application</h2><br>
+                <hr/>
+            </div>
+        </div>
+    </div>
+    <!--Header-->
+    <!--Body-->
+    <div class="container">
+        <div class="row">
+            <div class="col-4 card">
+                <div class="row">
+                <div class="col-12 my-2">
+                <h4 class="text-center">Enter Taks</h4>
+                </div>
+                <div class="col-6">
+                <div class="form-group my-2">
+                    <label>Select Date From</label>
+                    <input type="date" id="txtDatefrom" class="form-control">
+                </div>
+            </div>    
+            <div class="col-6">
+                <div class="form-group my-2">
+                    <label>Select Date To</label>
+                    <input type="date" id="txtDateto" class="form-control">
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-group my-2">
+                    <label>Select Priority</label>
+                    <select id="selPriority" class="form-control">
+                        <option>High</option>
+                        <option>Medium</option>
+                        <option>Low</option>
+                    </select>
+                </div>
+            </div>    
+            <div class="col-12">
+                <div class="form-group my-2">
+                    <label>Enter Task Title</label>
+                    <input type="text" placeholder="Title" id="txtTitle" class="form-control">
+                </div>
+            </div>
+            <div class="col-12"></div>   
+                <div class="form-group my-2">
+                    <label>Description</label>
+                    <textarea placeholder="Description" class="form-control" id="txtDescription">
+                    </textarea>
+                </div>
+            </div>
+            <button class="btn btn-primary">Add</button>   
+              
+            </div>
+            <!--Data Display Area-->
+            <div class="col-8">
+                <!--Pasted-->
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Task</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Priority</th>
+                        <th scope="col">DateFrom</th>
+                        <th scope="col">DateTo</th>
+                        <th scope="col">Status</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                      
+                    </tbody>
+                  </table>
+                <!--Pasted-->
+            </div>
+            <!--Data Display Area-->
+        </div>
+    </div>
+    <!--Body-->
+    <!--Footer-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    
+</body>
+</html>
